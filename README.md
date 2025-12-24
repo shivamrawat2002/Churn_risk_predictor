@@ -1,18 +1,18 @@
 # Customer Churn Prediction Using Machine Learning
 
-## 📌 Project Overview
+##  Project Overview
 Customer churn prediction is a critical problem for businesses aiming to improve customer retention and maximize profitability. This project focuses on building and evaluating machine learning models to predict whether a customer is likely to leave a banking institution based on historical customer data.
 
 Multiple classification algorithms are implemented and compared, including Logistic Regression, Random Forest, and XGBoost. The results demonstrate that ensemble-based models, particularly XGBoost, significantly outperform traditional approaches in identifying churn-prone customers.
 
 ---
 
-## 🧠 Problem Statement
+##  Problem Statement
 To design and implement a machine learning model that accurately predicts customer churn using demographic, financial, and behavioral attributes.
 
 ---
 
-## 🎯 Objectives
+##  Objectives
 - Explore and preprocess customer churn data  
 - Perform feature encoding and normalization  
 - Implement multiple machine learning classification models  
@@ -21,7 +21,7 @@ To design and implement a machine learning model that accurately predicts custom
 
 ---
 
-## 📂 Dataset Description
+##  Dataset Description
 The project uses the **Churn_Modelling.csv** dataset containing customer information from a banking institution.
 
 ### Dataset Attributes
@@ -41,7 +41,7 @@ The project uses the **Churn_Modelling.csv** dataset containing customer informa
 
 ---
 
-## 🔍 Methodology
+##  Methodology
 
 ### 1. Data Exploration
 - Dataset structure analyzed using `.info()`
@@ -67,7 +67,7 @@ The project uses the **Churn_Modelling.csv** dataset containing customer informa
 
 ---
 
-## 🤖 Machine Learning Models Implemented
+##  Machine Learning Models Implemented
 
 ### Logistic Regression
 - Linear classification model
@@ -87,7 +87,7 @@ The project uses the **Churn_Modelling.csv** dataset containing customer informa
 
 ---
 
-## 📊 Model Evaluation Metrics
+##  Model Evaluation Metrics
 Each model was evaluated using:
 - Confusion Matrix
 - Accuracy
@@ -99,7 +99,7 @@ Special emphasis was placed on **churn detection (Exited = 1)** due to its busin
 
 ---
 
-## 🧪 Results and Discussion
+##  Results and Discussion
 
 ### Logistic Regression Performance
 - **Accuracy:** 81.1%
@@ -132,7 +132,7 @@ XGBoost significantly improves churn detection while maintaining strong overall 
 
 ---
 
-## 🔑 Feature Importance Analysis
+##  Feature Importance Analysis
 Using Random Forest, the most influential features were:
 - Age  
 - Balance  
@@ -142,7 +142,7 @@ Using Random Forest, the most influential features were:
 
 ---
 
-## 💼 Business Insights
+##  Business Insights
 - Older customers with higher balances show higher churn risk  
 - Inactive customers are more likely to churn  
 - Customers using fewer products have higher churn probability  
@@ -150,12 +150,12 @@ Using Random Forest, the most influential features were:
 
 ---
 
-## ✅ Conclusion
+##  Conclusion
 This project highlights the effectiveness of machine learning in predicting customer churn. While Logistic Regression serves as a baseline, ensemble-based models deliver significantly better performance. Among all models evaluated, **XGBoost achieves the best balance between accuracy and churn detection**, making it suitable for real-world deployment.
 
 ---
 
-## 🔮 Future Scope
+##  Future Scope
 - Hyperparameter tuning using GridSearchCV  
 - Handling class imbalance using SMOTE  
 - Model deployment using FastAPI or Flask  
@@ -164,7 +164,7 @@ This project highlights the effectiveness of machine learning in predicting cust
 
 ---
 
-## 🛠 Tools and Technologies
+##  Tools and Technologies
 - Python  
 - Pandas, NumPy  
 - Matplotlib  
@@ -173,7 +173,7 @@ This project highlights the effectiveness of machine learning in predicting cust
 
 ---
 
-## 📚 References
+##  References
 - Scikit-learn Documentation  
 - XGBoost Documentation  
 - Kaggle – Customer Churn Dataset  
@@ -181,7 +181,6 @@ This project highlights the effectiveness of machine learning in predicting cust
 
 ---
 
-## 👤 Author
+##  Author
 **Shivam Rawat**  
-Computer Science & Engineering (Business Systems)  
-Vellore Institute of Technology
+
